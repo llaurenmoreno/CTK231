@@ -1,0 +1,60 @@
+h1 {
+    background-color:pink;
+    color:brown;
+}
+
+h2 {
+    background-color:brown;
+    color:pink;
+}
+
+h3 {
+    background-color:darksalmon;
+    color:sienna;
+}
+
+h4 {
+    background-color:rgb(136, 103, 125);
+    color:rgb(255, 194, 219);
+}
+
+p {
+    background-color:bisque;
+    color:rgb(202, 65, 72);
+}
+
+ul{
+    color:rgb(126, 43, 43);
+}
+
+.requirements{
+    background-color:rgb(235, 174, 134);
+}
+
+.contact{
+    background-color:rgb(255, 210, 236);
+}
+
+.pinktext{
+    color:rgb(255, 0, 106);
+}
+
+a {
+  color: #ff0000;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: #ff5100;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.browntext{
+    color:rgb(105, 51, 51)
+}

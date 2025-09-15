@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(swirls.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    background-color:pink;
+    color:orangered;
+    font-style:italic;
+    font-weight:normal; 
+}
+
+h2 {
+    background-color:rgb(180, 76, 111);
+    color:orangered;
+    font-style:italic;
+    font-weight:normal; 
+}
+
+h3 {
+    background-color:darksalmon;
+    color:orangered;
+    font-style:italic;
+    font-weight:normal; 
+}
+
+h4 {
+    background-color:rgb(136, 103, 125);
+    color:orangered;
+    font-style:italic;
+    font-weight:normal; 
+}
+
+p {
+    background-color:bisque;
+    color:rgb(202, 65, 72);
+}
+
+
+ul{
+    color:rgb(126, 43, 43);
+}
+
+img{
+    border:8px solid black;
+    padding: 6px;
+    background-color: yellow;
+}
+
+.requirements{
+    background-color:rgb(235, 174, 134);
+}
+
+.contact{
+    background-color:rgb(255, 210, 236);
+}
+
+.pinktext{
+    color:rgb(255, 0, 106);
+}
+
+a {
+  color: #7badb6fd;
+}
+
+a:visited {
+  color: rgb(118, 88, 126);
+}
+
+
+a:hover {
+  color: rgb(255, 81, 188);
+}
+
+.browntext{
+    color:rgb(105, 51, 51)
+}
+
+.centertext{
+    text-align: center;
+}
+
+.justified {
+    text-align: justify;
+}

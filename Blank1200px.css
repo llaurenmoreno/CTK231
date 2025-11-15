@@ -19,39 +19,43 @@ nav{
 }
 
 nav ul {
-    list-style-type: none; /* none, disc, circle, square */
-    padding: 0;
-    margin: 0;
+  list-style-type: none; /* none, disc, circle, square */
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
-    padding: 0px;
-    margin-bottom: 20px;
-    margin-right:20px;
-    width: 160px;
-    display:inline-block;
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-right:20px;
+  width: 160px;
+  display:inline-block;
 }
 
 nav li a {
-    color:#FBFEFB;
-    text-decoration:none;
-    display:block;
-    padding: 15px;
-    background-color:#8597D5;
-    text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:25px;
-    border-radius: 10px;
+  color:#FBFEFB;
+  text-decoration:none;
+  display:block;
+  padding: 15px;
+  background-color:#8597D5;
+  text-align:center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:25px;
+  border-radius: 10px;
+  transition: background-color 0.5s, border-radius 0.5s;
 }
 
 nav li a:hover {
-    background-color:#927DDE;
+  background-color:#927DDE;
+  border-radius:20px;
 }
 
 header{
   text-align:center;
   grid-column:span 12;
+  font-family: "Homemade Apple", cursive;
 }
+
 main {
   grid-column: span 12;
   text-align: center;
@@ -79,6 +83,12 @@ h2{
   margin:120px;
 }
 
+.audioo{
+  font-size:15px;
+  margin-top:0px;
+  padding-bottom:25px;
+}
+
 h3{
   font-size:22px;
   color:#362183;
@@ -97,9 +107,15 @@ h3{
   color: #362183;
 }
 
+.textshadowbox {
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+
 footer{
   grid-column:span 12;
   text-align:center;
+  font-size:25px;
+  color:#7A3E6E
 }
 img {
   width: 40px;

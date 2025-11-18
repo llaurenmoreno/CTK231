@@ -7,6 +7,10 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script> 
+
 	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -26,7 +30,22 @@
 		</header>
 
 		<main>
-			<h3><div id="carousel">*insert carousel of projects here*</div></h3>
+			<div id="carousel">
+			
+			<h3>(Click for more information)</h3>
+
+			<a href="avery.png" data-fancybox="gallery" data-caption="CTK-248 'Emulation' Project">
+				<img src="avery_tn.jpg">
+			</a>
+			<a href="margaret.jpg" data-fancybox="gallery" data-caption="CTK-201 '100 Artists' Project">
+				<img src="margaret_tn.jpg">
+			</a>
+			<a href="illustration.jpg" data-fancybox="gallery" data-caption="CTK-248 'Illustration' Project">
+				<img src="illustration_tn.jpg">
+			</a>
+			</div>
+
+
 			<audio controls autoplay >
   				<source src="restructuring music.wav" type="audio/mpeg">
 			</audio>
@@ -41,5 +60,11 @@
 		</footer>
 
 	</div>
+
+	<script>   
+   		Fancybox.bind("[data-fancybox]", {});
+	</script>
+
 </body>
 </html>
+

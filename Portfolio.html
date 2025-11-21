@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script> 
+
+	<link href="PortfolioStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- These dummy columns are just to show the grid columns, replace with your HTML -->
+		<nav>
+			<ul>
+				<li><a class="active" href="Portfolio.html">Projects</a></li>
+				<li><a href="PortfolioAbout.html">About</a></li>
+				<li><a href="PortfolioContact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<h1 class="fancy-name">Lauren Moreno</h1>
+			<h2>My Work</h2>
+		</header>
+
+		<main>
+			<div id="carousel">
+			
+			<h3>(Click for more information)</h3>
+
+			<a href="avery.png" data-fancybox="gallery" data-caption="CTK-248 'Emulation' Project">
+				<img src="avery_tn.jpg">
+			</a>
+			<a href="margaret.jpg" data-fancybox="gallery" data-caption="CTK-201 '100 Artists' Project">
+				<img src="margaret_tn.jpg">
+			</a>
+			<a href="illustration.jpg" data-fancybox="gallery" data-caption="CTK-248 'Illustration' Project">
+				<img src="illustration_tn.jpg">
+			</a>
+            <a data-fancybox="gallery" data-src="#audio-popup" data-caption="Restructure of 'Let It Happen' – CTK 240">
+                <img src="letithappen_tn.jpg" alt="Audio Project">
+            </a>
+            <div id="audio-popup" hidden>
+                <audio controls>
+                    <source src="restructuring music.wav" type="audio/mpeg">
+                </audio>
+            </div>
+
+			</div>
+
+			<div id="section">
+			<h3><span id="intro">Hello, I’m Lauren!</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus lorem id venenatis ornare. Curabitur in mauris id nulla suscipit porta non id enim. Nulla vel viverra nulla.</h3>
+			</div>
+		</main>
+
+		<footer>
+			<i class="bi bi-instagram"></i>
+		</footer>
+
+	</div>
+
+	<script>   
+   		Fancybox.bind("[data-fancybox]", {});
+	</script>
+
+</body>
+</html>
